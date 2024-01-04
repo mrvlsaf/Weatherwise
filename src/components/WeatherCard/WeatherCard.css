@@ -1,0 +1,48 @@
+.details {
+  padding: 0 2em;
+  margin-top: 15px;
+  width: 90vw;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.detail-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.temp-cont {
+  display: flex;
+}
+
+.detail-one img {
+  width: 50px;
+  height: 50px;
+  margin: 20px 0 0 15px;
+}
+
+.detail-three {
+  gap: 10%;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.detail-three div {
+  width: 40%;
+  padding: 15px;
+  border-radius: 5px;
+  background: #dbdffd;
+}
+
+.detail-three h2 {
+  margin: 0;
+}
+
+.detail-four img {
+  width: 100%;
+}
