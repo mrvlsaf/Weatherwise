@@ -5,8 +5,6 @@ import MuiAlert from '@mui/material/Alert';
 
 export default function ErrorHandle({ msg, open, setOpen }) {
 
-    console.log(msg)
-
     const Alert = forwardRef(function Alert(props, ref) {
         return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
     });

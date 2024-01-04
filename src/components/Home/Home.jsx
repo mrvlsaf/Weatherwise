@@ -37,9 +37,11 @@ const Home = ({ handleError }) => {
   };
 
   useEffect(() => {
-    setShowWeather(false);
-    searchCityWeather();
-  }, [city, searchCityWeather]);
+    if (city) {
+      setShowWeather(false);
+      searchCityWeather();
+    }
+  }, [city]);
 
   const search = (data) => {
     return data.filter((item) => keys.some((key) => item[key].includes(query)));
